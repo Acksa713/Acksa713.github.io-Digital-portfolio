@@ -324,3 +324,41 @@ section h2 {
     }
 }
 }
+#feedback {
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    height: 1rem;
+    display: block;
+}
+
+input.invalid, textarea.invalid {
+    border-color: #ff4d4d;
+    background-color: #fffafa;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
